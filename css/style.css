@@ -1,0 +1,1131 @@
+/* ----- General ----- */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Speedee', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*------------ Fine General ------------*/
+
+
+/* ----- Header ----- */
+.header-back {
+    width: 100%;
+    border-bottom: 4px solid #2c2c2c;
+    background-color: #000;
+}
+
+.header-top {
+    width: 1280px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header-top .logo {
+    width: 150px;
+    margin-left: 50px;
+}
+
+.header-top .menu {
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+.header-top .menu ul {
+    display: flex;
+}
+
+.header-top .menu a {
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: all ease 0.47s;
+    color: #e5e5e5;
+}
+
+.header-top .menu a:hover {
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.header-top .menu .text-margin {
+    margin-right: 30px;
+}
+/*------------ Fine Header ------------*/
+
+
+/* ------------------------
+        Pagina Home
+-------------------------*/
+/* ----- Banner ----- */
+.banner {
+    position: relative;
+    width: 100%;
+    padding: 0 0 50px;
+}
+
+.banner .immagine-banner {
+    width: 100%;
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.7);
+    background-color: #000;
+}
+
+.banner .text-slider {
+    position: absolute;
+    top: 315px;
+    left: 200px;
+    color: white;
+}
+
+.banner .text-slider .subtitle-slider {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 80px;
+}
+
+.banner .text-slider .btn {
+    color: black;
+    background-color: #ffbb0d;
+    padding: 15px 20px;
+    position: absolute;
+    top: 235px;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: all ease 0.3s;
+}
+
+.banner .text-slider .btn:hover {
+    background-color: #2c2c2c;
+    color: white;
+}
+
+/* ----- I 2 Articoli ----- */
+.tutti-articoli {
+    width: 100%;
+    height: 516px;
+    margin-bottom: 30px;
+}
+
+.i4articoli {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 1280px;
+}
+
+/* -- Articolo 1 -- */
+.articolo-1 {
+    background-color: #0046bf;
+    margin-right: 50px;
+    margin-bottom: 12px;
+    width: 675px;
+    height: 516px;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: -10px 10px 50px rgb(0, 0, 0, 0.7);
+}
+
+/* -- Articolo 2 -- */
+.articolo-2 {
+    background-color: white;
+    margin-right: 50px;
+    margin-bottom: 12px;
+    width: 361px;
+    height: 516px;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: -10px 10px 50px rgb(0, 0, 0, 0.7);
+}
+
+.articolo-2 img {
+    transition: all ease 1s;
+}
+
+.articolo-2:hover img {
+    transform: scale(105%);
+}
+
+/* -- Text articoli -- */
+.text-articoli-1 {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.text-articoli-2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.text-articoli-3 {
+    padding: 20px 20px 40px;
+    text-align: center;
+}
+
+.title-articolo {
+    font-size: 35px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.subtitle-articolo {
+    font-size: 15px;
+}
+
+/* -- Imgs articoli -- */
+.img-articoli {
+    justify-content: center;
+    display: flex;
+}
+
+.img-articoli img {
+    width: 100%;
+}
+/*------------ Fine Pag. Home ------------*/
+
+
+/* ------------------------
+        Pagina Sorry
+-------------------------*/
+.messaggio-sorry {
+    width: 100%;
+    background-color: #000;
+    height: 500px;
+    margin-bottom: 50px;
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.7);
+}
+
+.messaggio-sorry-text {
+    margin: 0 auto;
+    color: #e5e5e5;
+    /* background-color: #f0f; */
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+/* -- Text -- */
+.title-sorry {
+    margin-bottom: 10px;
+}
+
+.subtitle-sorry {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+/*------------ Fine Pag. Sorry ------------*/
+
+
+/* ------------------------
+     Pagina Contatti
+-------------------------*/
+.contact-text-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-text-margin {
+    width: 1280px;
+    margin: 60px 0;
+}
+
+.contact-text-container {
+    padding: 0 15px;
+    font-size: 55px;
+}
+
+/* -- Selection -- */
+.selection-size {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.selection {
+    width: 1280px;
+    height: 1061px;
+    margin-bottom: 50px;
+}
+
+/* -- FAQ -- */
+.aiuto-fuq {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.fuq-img img {
+    width: 456px;
+    border-radius: 19px;
+    margin-bottom: 10px;
+}
+
+.text-fuq {
+    margin: 10px 0 20px;
+    font-size: 23px;
+}
+
+.text-fuq span {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -- Inserimento Dati -- */
+.insert-data-size {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.insert-data {
+    width: 920px;
+    height: 279px;
+}
+
+.a1-and-2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.a3-and-4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.a5-and-6 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nome {
+    padding: 15px;
+    width: 430px;
+}
+
+.nome span {
+    color: #ffbb0d;
+}
+
+.cognome {
+    padding: 15px;
+    width: 430px;
+}
+
+.cognome span {
+    color: #ffbb0d;
+}
+
+.email {
+    padding: 15px;
+}
+
+.email span {
+    color: #ffbb0d;
+}
+
+.cellulare {
+    padding: 15px;
+}
+
+.citta {
+    padding: 15px;
+}
+
+.ristorante {
+    padding: 15px;
+}
+
+.size-input input {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2c2c2c;
+    background-color: rgba(0, 0, 0, 0);
+    height: 40px;
+    min-height: 40px;
+    width: 396px;
+    padding: 0 15px;
+    border: 2px solid #e2e2e2;
+    transition: all ease 0.2s;
+    border-radius: 1px;
+}
+
+.size-input input:hover {
+    border: 2px solid #ffbb0d;
+}
+
+
+.type-size {
+    width: 905px;
+}
+
+.type p {
+    font-size: 20px;
+}
+
+.type i {
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+.type-text {
+    margin: 15px 15px 0;
+    width: max-content;
+}
+
+/* -- Button -- */
+.all-botton-type {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.smile-botton {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    background-color: #faf9f7;
+    color: #888;
+    padding: 30px 50px;
+    width: 100%;
+    text-align: center;
+    transition: all ease 0.6s;
+    margin: 15px 0 0 15px;
+    font-weight: 500;
+
+}
+
+.smile-botton:hover {
+    background-color: #ffbb0d;
+    color: #0c0035;
+}
+
+/* -- Messaggi -- */
+.message-contact-size {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.message-contact {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.message-contact span {
+    color: #ffbb0d;
+}
+
+.message-contact input {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2c2c2c;
+    background-color: rgba(0, 0, 0, 0);
+    height: 40px;
+    min-height: 40px;
+    width: 856px;
+    padding: 0 15px;
+    border: 2px solid #e2e2e2;
+    transition: all ease 0.3s;
+    border-radius: 1px;
+}
+
+.message-contact input:hover {
+    border: 2px solid #ffbb0d;
+}
+
+/* -- btn Send -- */
+.send-message-size {
+    width: 860px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.send-message {
+    width: 258px;
+    height: 41px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.send-message a {
+    padding: 11px 50px;
+    margin-top: 30px;
+    background-color: #ffbb0d;
+    border-radius: 8px;
+}
+/*------------ Fine Pag. Contatti ------------*/
+
+
+/* ------------------------
+     Pagina Thx-Page
+-------------------------*/
+.thx-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 320px;
+    font-size: 98px;
+}
+
+.under-thx-message {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.under-thx-message a {
+    text-decoration: underline;
+    transition: all ease 0.2s;
+}
+
+.under-thx-message a:hover {
+    color: #ffbb0d;
+}
+/*------------ Fine Pag. Thx-Page ------------*/
+
+
+/* ------------------------
+     Pagina Contest
+-------------------------*/
+/* -- Video -- */
+.slider-video-size {
+    width: 100%;
+}
+
+.video-slider-video {
+    margin-top: -85px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contest .header-back {
+    position: relative;
+    z-index: 1;
+}
+
+/* -- Text -- */
+.title-under-slider-video {
+    padding-top: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.title-under-slider-video p {
+    font-size: 50px;
+}
+
+.title-under-slider-video span {
+    color: #0046bf;
+}
+
+/* ----- Quadranti ----- */
+/* -- Quandrante 1 -- */
+.quadrante1 {
+    width: 1400px;
+    height: 600px;
+    background-color: #0046bf;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border-radius: 70px;
+    margin-bottom: 200px;
+}
+
+.content-quadrante1 {
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-quadrante1 {
+    height: 550px;
+}
+
+.img-quadrante1 img {
+    height: 100%;
+    transition: all ease 1s;
+}
+
+.img-quadrante1 img:hover {
+    transform: scale(105%);
+}
+
+.img-quadrante1-1 {
+    height: 550px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.img-quadrante1-1 img {
+    height: 80%;
+    transition: all ease 1s;
+}
+
+.img-quadrante1-1 img:hover {
+    transform: scale(105%);
+}
+
+.text-quadrante1 {
+    color: #e5e5e5;
+    font-size: 28px;
+    text-align: center;
+    width: 600px;
+}
+
+.domanda-quadrante1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.risposta-quadrante1 {
+    width: 550px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -- Quandrante 2 -- */
+.quadrante2 {
+    width: 1400px;
+    height: 600px;
+    border: 10px solid #0046bf;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border-radius: 70px;
+    margin-bottom: 200px;
+}
+
+.content-quadrante2 {
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-quadrante2 {
+    height: 550px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.img-quadrante2 img {
+    height: 80%;
+    transition: all ease 1s;
+
+}
+
+.img-quadrante2 img:hover {
+    transform: scale(105%);
+}
+
+.text-quadrante2 {
+    color: #000;
+    font-size: 28px;
+    text-align: center;
+    width: 600px;
+}
+
+.domanda-quadrante2 {
+    font-size: 68px;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.risposta-quadrante2 {
+    width: 550px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -- Quandrante 3 -- */
+.quadrante3 {
+    width: 1400px;
+    height: 600px;
+    border: 10px solid #0046bf;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border-radius: 70px;
+    margin-bottom: 100px;
+}
+
+.content-quadrante3 {
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-quadrante3 {
+    height: 550px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.img-quadrante3 img {
+    height: 80%;
+    transition: all ease 1s;
+}
+
+.img-quadrante3 img:hover {
+    transform: scale(105%);
+}
+
+.text-quadrante3 {
+    color: #000;
+    font-size: 28px;
+    text-align: center;
+    width: 600px;
+}
+
+.domanda-quadrante3 {
+    font-size: 68px;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.risposta-quadrante3 {
+    width: 550px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -- Extra -- */
+.reg {
+    font-size: 15px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.here {
+    font-weight: 700;
+    text-decoration: underline;
+    transition: all ease 0.3s;
+}
+
+.here:hover {
+    color: #e5e5e5;
+}
+/*------------ Fine Pag. Contest ------------*/
+
+
+/* ------------------------
+     Pagina Prodotto
+-------------------------*/
+.banner-prodotto {
+    width: 100%;
+    position: relative;
+}
+
+.banner-prodotto .prodottobanner {
+    width: 100%;
+}
+
+.banner-prodotto .text-banner-prodotto {
+    position: absolute;
+    top: 320px;
+    left: 200px;
+    color: #2c2c2c;
+}
+
+.banner-prodotto .text-banner-prodotto .titolo-banner-prodotto {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.banner-prodotto .text-banner-prodotto .sottotitolo-banner-prodotto {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.banner-prodotto .text-banner-prodotto .sottotitolo-banner-prodotto .slogan {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.banner-prodotto .text-banner-prodotto .sottotitolo-banner-prodotto .img-dim {
+    font-size: 13px;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.sottotitolo-banner-prodotto p {
+    width: 520px;
+}
+
+.certificazione {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 750px;
+    left: 200px;
+}
+
+.size-ingredienti {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.ingredienti {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size {
+    width: 200px;
+}
+
+.size img {
+    width: 100%;
+}
+
+.ingredienti p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.valori-nutrizionali {
+    width: 1630px;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.yellow-block {
+    background-color: #ffbb0d;
+    width: 100%;
+    height: 70px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-100 {
+    height: 160px;
+    width: 245px;
+    border-right: 4px solid #ffbb0d;
+    font-size: 15px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+.dettaglio-prodotto {
+    display: flex;
+    margin: 0 15px;
+    width: 1358px;
+    height: 160px;
+    flex-wrap: wrap;
+}
+
+.info-food {
+    margin-bottom: 35px;
+    width: 265px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-value {
+    font-family: 'Speedee';
+    font-size: 27px;
+}
+
+.info-value span {
+    font-size: 18px;
+}
+
+.schede {
+    width: 100%;
+}
+
+.content-schede {
+    width: 1630px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.size-img {
+    overflow: hidden;
+    width: 750px;
+    height: 415px;
+}
+
+.img-schede {
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.img-schede img {
+    width: 100%;
+    margin-bottom: 20px;
+    transition: all ease 0.3s;
+}
+
+.img-schede img:hover {
+    transform: scale(105%);
+}
+
+.text-schede {
+    width: 750px;
+}
+
+.titolo-img-schede {
+    font-size: 23px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.titolo-img-schede a {
+    transition: all ease 0.3s;
+    color: #2c2c2c;
+}
+
+.titolo-img-schede a:hover {
+    color: #ffbb0d;
+}
+
+.sottotitolo-schede {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*------------ Fine Pag. Prodotto ------------*/
+
+
+
+/* ----- Footer ----- */
+/* --- Condividi --- */
+.condividi {
+    width: 100%;
+}
+
+.content-condividi {
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.content-condividi p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #2c2c2c;
+}
+
+.icon-social {
+    font-size: 18px;
+}
+
+.icon-social ul {
+    display: flex;
+}
+
+.icon-social .fa-facebook-f {
+    color: #2c2c2c;
+    background-color: #e5e5e5;
+    margin: 0 10px;
+    padding: 11.5px 14.88px;
+    border-radius: 100%;
+}
+
+.icon-social .fa-twitter {
+    color: #2c2c2c;
+    margin: 0 10px;
+    background-color: #e5e5e5;
+    padding: 11.5px;
+    border-radius: 100%;
+}
+
+.icon-social .fa-whatsapp {
+    color: #2c2c2c;
+    background-color: #e5e5e5;
+    padding: 11.5px 12.64px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.icon-social i {
+    transition: all ease 0.3s;
+}
+
+.icon-social i:hover {
+    background-color: #eeeeee;
+}
+
+/* --- Seguici --- */
+.seguici {
+    width: 100%;
+}
+
+.content-seguici {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #e5e5e5;
+}
+
+.content-seguici p {
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.icon-seguici {
+    padding: 50px 0;
+}
+
+.icon-seguici ul {
+    display: flex;
+}
+
+.icon-seguici li {
+    margin: 0 10px;
+}
+
+.icon-seguici i {
+    font-size: 18px;
+}
+
+.icon-seguici .fa-facebook-f {
+    color: white;
+    background-color: #2c2c2c;
+    
+    padding: 11.5px 14.88px;
+    border-radius: 100%;
+    transition: all ease 0.3s;
+}
+
+.icon-seguici .fa-instagram {
+    color: white;
+    background-color: #2c2c2c;
+    padding: 11.5px 12.64px;
+    border-radius: 100%;
+    transition: all ease 0.3s;
+}
+
+.icon-seguici .fa-youtube {
+    color: white;
+    background-color: #2c2c2c;
+    padding: 11.5px 10.38px;
+    border-radius: 100%;
+    transition: all ease 0.3s;
+}
+
+.icon-seguici i {
+    transition: all ease 0.3s;
+}
+
+.icon-seguici i:hover {
+    background-color: #424242;
+}
+
+/* --- Extra --- */
+.extra {
+    width: 100%;
+    padding: 34px 0 50px;
+}
+
+.extra-top {
+    padding-bottom: 36px;
+}
+
+.extra-end {
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.extra-bottom {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.extra-bottom ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.extra-bottom a {
+    color: #2c2c2c;
+}
+
+.extra-bottom .extra-margin {
+    padding: 5px 36px 5px 0;
+}
+
+.extra-down p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 0 0 0 17px;
+    margin: 4px 0 10px;
+    color: #2c2c2c;
+}
+/*------------ Fine Footer ------------*/

@@ -1,10 +1,10 @@
-# Soul Burger - Progetto McDonald's Collaboration
+# Soul Kitchen - Progetto McDonald's Collaboration
 
 ## Descrizione del Progetto
-Questo progetto è stato sviluppato come parte dell'esame del primo anno universitario. L'obiettivo era creare un sito web che simulasse una collaborazione tra McDonald's e un'azienda fittizia (Soul Burger) utilizzando esclusivamente HTML e CSS.
+Questo progetto è stato sviluppato come parte dell'esame del primo anno universitario. L'obiettivo era creare un sito web che simulasse una collaborazione tra McDonald's e un'azienda fittizia (Soul Kitchen) utilizzando esclusivamente HTML e CSS.
 
 ## Caratteristiche Principali
-- Landing page con presentazione del prodotto principale (Soul Burger)
+- Landing page con presentazione del prodotto principale (Soul Kitchen)
 - Sezione dedicata al contest in collaborazione con PlayStation
 - Form di contatto funzionale
 - Design responsive
